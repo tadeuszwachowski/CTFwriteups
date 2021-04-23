@@ -4,6 +4,7 @@ Category: General skills
 ## Description
 
 > This file has a flag in plain sight (aka "in-the-clear").
+
 A file was attached.  
 
 # Solution
