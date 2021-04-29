@@ -6,3 +6,9 @@ collections:
   helpme:
     output: true
     permalink: /helpme/:path/
+  CTFlearn:
+    output: true
+    permalink: /ctflearn/:path/
+  picoCTF:
+    output: true
+    permalink: /picoctf/:path/
