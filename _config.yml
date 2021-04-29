@@ -1,1 +1,6 @@
 theme: jekyll-theme-midnight
+collections: 
+  picoCTF:
+    output: true
+  CTFlearn:
+    output: true
