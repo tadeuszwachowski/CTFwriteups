@@ -90,6 +90,14 @@ p#ps {
   top: 40px;
 }
 
+#md-place {
+  position: absolute;
+  top: 100px;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
 /* LOADER */
 #loader-wrapper {
     position: fixed;
@@ -180,10 +188,4 @@ p#ps {
 .progress-bar{
     text-align: center;
     margin: 0px auto;
-}
-
-#content {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
 }
