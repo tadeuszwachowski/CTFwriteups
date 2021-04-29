@@ -8,11 +8,6 @@ collections:
     output: true
     permalink: /:collection/:name
 
-{% for writeup in site.CTFlearn %}
-  <p>{{ writeup.content | markdownify }}</p>
-{% endfor %}
-
-
 =======
 theme: jekyll-theme-modernist
 >>>>>>> 8144e42aa87be7d16b09914418826baa367dd4d8
