@@ -825,7 +825,7 @@
   font-size: 85%;
   line-height: 1.45;
   background-color: #2d333b;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .markdown-body pre code {
