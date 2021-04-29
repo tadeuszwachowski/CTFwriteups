@@ -1,3 +1,7 @@
+---
+layout: writeup
+---
+
 # Basic Injection
 Category: Web
 

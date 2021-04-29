@@ -1,3 +1,6 @@
+---
+layout: writeup
+---
 # Taking LS
 Category: Forensics
 

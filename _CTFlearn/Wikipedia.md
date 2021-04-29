@@ -1,6 +1,5 @@
 ---
 layout: writeup
-title: Wikipedia
 ---
 
 # Wikipedia

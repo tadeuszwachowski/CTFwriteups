@@ -1,3 +1,6 @@
+---
+layout: writeup
+---
 # Where Can My Robot Go?
 Category: Miscellaneous
 

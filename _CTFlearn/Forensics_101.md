@@ -1,3 +1,6 @@
+---
+layout: writeup
+---
 # Forensics 101
 Category: Forensics
 
