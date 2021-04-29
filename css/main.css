@@ -45,7 +45,10 @@ p#ps {
 #navbar.helpline {
   position: relative;
   right: 0;
-  font-size: 40px;
+}
+
+#navbar.helpline a {
+  font-size: 30px;
 }
 
 
