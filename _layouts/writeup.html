@@ -1,0 +1,6 @@
+---
+layout: default
+---
+{% for hm in site.helpme %}
+  <p>{{ hm.content | markdownify }}</p>
+{% endfor %}

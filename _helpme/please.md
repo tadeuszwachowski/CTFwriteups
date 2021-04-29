@@ -1,4 +1,5 @@
 ---
+layout: writeup
 title: "I am dying"
 ---
 
