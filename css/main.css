@@ -37,13 +37,14 @@ p#ps {
   top: 0;
   right: 20px;
   padding: 10px;
+  width: 250px;
+  background-color: #22272e;
   z-index: 5;
 }
 
 #navbar.helpline {
   position: relative;
   right: 0;
-  width: 250px;
   font-size: 40px;
 }
 
