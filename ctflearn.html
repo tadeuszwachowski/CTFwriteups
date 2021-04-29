@@ -5,11 +5,11 @@ title: "CTFlearn"
 <h1 align="center">CTFlearn</h1>
 
 {% for w in site.CTFlearn %}
-	<p>{{w.title}}</p>
+	<a href="#{{w.title}}">{{w.title}}</a> <br>
 {% endfor %}
 
 {% for w in site.CTFlearn %}
-	<p>{{ w.content | markdownify }}</p>
+	<p id="{{w.title}}">{{ w.content | markdownify }}</p>
 	<br>
 	<br>
 	<br>
