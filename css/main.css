@@ -35,7 +35,7 @@ p#ps {
 #navbar {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 20px;
   padding: 10px;
 }
 
