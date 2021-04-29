@@ -51,7 +51,7 @@ p#ps {
   font-size: 22px;
 }
 
-#comp-list {
+#comp-list a {
   font-size: 24px;
   color: #eaecef;
 }
