@@ -37,6 +37,7 @@ p#ps {
   top: 0;
   right: 20px;
   padding: 10px;
+  z-index: 5;
 }
 
 #navbar.helpline {
