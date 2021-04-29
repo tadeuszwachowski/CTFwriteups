@@ -3,10 +3,7 @@ layout: default
 ---
 <h1>WRITEUPS</h1>
 
-{% for hm in site.helpme %}
-  <p>{{ hm.content | markdownify }}</p>
-{% endfor %}
-
-{% for CTFl in site.CTFlearn %}
-  <p>{{ CTFl.content | markdownify }}</p>
-{% endfor %}
+<ul>
+	<li><a href="{{site.baseurl}}/picoctf/">picoCTF</a></li>
+	<li><a href="{{site.baseurl}}/ctflearn/">CTFlearn</a></li>
+</ul>
