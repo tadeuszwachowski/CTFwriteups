@@ -1,6 +1,6 @@
 markdown: redcarpet
 baseurl: /CTFwriteups
-exclude : ['README.md']
+exclude : ['README.md','template.md']
 permalink: pretty
 collections: 
   helpme:

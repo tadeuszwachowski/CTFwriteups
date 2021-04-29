@@ -1,3 +1,7 @@
+---
+layout: writeup
+title: [NAME]
+---
 # [NAME]
 Category: [CATEGORY]
 
