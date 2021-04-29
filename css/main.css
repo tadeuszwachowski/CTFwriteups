@@ -51,6 +51,11 @@ p#ps {
   font-size: 22px;
 }
 
+#comp-list {
+  font-size: 24px;
+  color: #eaecef;
+}
+
 
 #bar {
   position: absolute;
