@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Where Can My Robot Go?
 ---
 # Where Can My Robot Go?
 Category: Miscellaneous

@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Forensics 101
 ---
 # Forensics 101
 Category: Forensics

@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Taking LS
 ---
 # Taking LS
 Category: Forensics

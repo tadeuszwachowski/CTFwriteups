@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Character Encoding
 ---
 # Character Encoding
 Category: Cryptography

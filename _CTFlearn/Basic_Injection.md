@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Basic Injection
 ---
 
 # Basic Injection

@@ -1,5 +1,6 @@
 ---
 layout: writeup
+title: Base 2 2 the 6
 ---
 # Base 2 2 the 6
 Category: Cryptography

@@ -1,7 +1,7 @@
 ---
 layout: writeup
+title: Wikipedia
 ---
-
 # Wikipedia
 Category: Miscellaneous
 
