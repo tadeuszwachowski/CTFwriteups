@@ -36,14 +36,13 @@ p#ps {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   margin: 0;
 }
 
 #navbar.helpline {
-  position: absolute;
+  position: relative;
   right: 0;
-  top: 0;
   width: 250px;
   font-size: 30px;
 }
