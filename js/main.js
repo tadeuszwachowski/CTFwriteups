@@ -1,54 +1,7 @@
 var commandLength = 0;
 var rebooting = 0;
 
-function term_run(com) {
-	var answer;
-
-	switch (com) {
-		case '':
-			answer = "";
-			return answer;
-		case 'whoami':
-			answer = "I'm just a humble cybersecurity student, aspiring to be an expert or a CSO.<br/>At the moment, I'm trying to save some money and pass the OSCP and CompTIA exams.<br/>I love playing CTF ⚑ challenges.";
-			return answer; 
-		case 'history': 
-			answer = "I worked as a salesperson and Team Leader in an amusement park for two seasons and now I'm studying cybersecurity at AGH University of Science and Technology in Kraków, Poland.";
-			return answer; 
-		case 'find': 
-			answer = "You can contact me by email: <a href='mailto:twachowski@protonmail.com' style='color:red;text-decoration:bold;'>twachowski@protonmail.com";
-			return answer; 
-		case 'help': 
-			answer = "Available commands: whoami, history, find, help, man help, clear";
-			return answer; 
-		case 'man help': 
-			answer = "whoami - my bio<br/>history - well, my history<br/>find - contact";
-			return answer; 
-		case 'kill': 
-			answer = "please don't";
-			return answer; 
-		case 'cat': 
-			answer = "🐱 MEOW 🐱";		
-			return answer; 
-		case 'clear': 
-			var c = document.getElementById("content");
-			c.innerHTML = "<p id='terminal'></p><p id='inp'></p>";
-			return answer;
-		case 'cd writeups':
-			window.open("https://qualorm.github.io/CTFwriteups", "_self");
-			answer = "Here you go!";
-			return answer;
-		default:
-			answer = com + ": command not found";
-			return answer;
-	}
-}
-
 function newline() {
-		var hl = document.createElement("p");
-	document.getElementById("content").appendChild(hl);
-	hl.innerHTML = "<b>/home/twachowski$</b> <p id='inp'></p><p id='ps'>&#9601;</p>";
-	blink();
-
 	document.onkeydown = function(evt) {
 	    if (rebooting == 0) {
 	    	// evt = evt || window.event;
@@ -93,28 +46,10 @@ function newline() {
 	};
 }
 
-async function inithelp() {
-	var hl = document.getElementById('helpline');
-	await sleep(1600);
-	hl.innerHTML += "h";
-	await sleep(200);
-	hl.innerHTML += "e";
-	await sleep(300);
-	hl.innerHTML += "l";
-	await sleep(100);
-	hl.innerHTML += "p";
-	await sleep(150);
-	hl.innerHTML += "<br/>Available commands: whoami, history, find, help, man help, cd writeups<br/>";
-	newline();
-	
-};
-
 $(document).ready(function() {
- 
     setTimeout(function(){
         $('body').addClass('loaded');
-        inithelp();
-    }, 3000);
+    }, 500);
     
 });
 
