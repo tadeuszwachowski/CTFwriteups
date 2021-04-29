@@ -1,7 +1,7 @@
+baseurl: /CTFwriteups
+exclude : ['README.md']
+permalink: pretty
 collections: 
-  picoCTF:
+  helpme:
     output: true
-    permalink: /picoCTF/:path/
-  CTFlearn:
-    output: true
-    permalink: /CTFlearn/:path/
+    permalink: /helpme/:path/
