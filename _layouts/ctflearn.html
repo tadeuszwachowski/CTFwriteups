@@ -1,0 +1,7 @@
+---
+layout: writeup
+---
+
+{% for ctfl in site.ctflearn %}
+  <p>{{ ctfl.content | markdownify }}</p>
+{% endfor %}

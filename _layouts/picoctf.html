@@ -1,0 +1,7 @@
+---
+layout: writeup
+---
+
+{% for pctf in site.picoctf %}
+  <p>{{ pctf.content | markdownify }}</p>
+{% endfor %}
