@@ -3,3 +3,7 @@ layout: default
 ---
 <h1>WRITEUPS</h1>
 <p>Help me</p>
+
+{% for hm in site.helpme %}
+  <p>{{ hm.content | markdownify }}</p>
+{% endfor %}
