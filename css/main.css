@@ -36,14 +36,15 @@ p#ps {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  width: 100%;
   padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
+  margin: 0;
 }
 
 #navbar.helpline {
   position: absolute;
   right: 0;
+  top: 0;
   width: 250px;
 }
 
