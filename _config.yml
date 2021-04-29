@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-theme: jekyll-theme-midnight
 collections: 
   picoCTF:
     output: true
-    permalink: /:collection/:name
+    permalink: /picoCTF/:path/
   CTFlearn:
     output: true
-    permalink: /:collection/:name
-
-=======
-theme: jekyll-theme-modernist
->>>>>>> 8144e42aa87be7d16b09914418826baa367dd4d8
+    permalink: /CTFlearn/:path/
