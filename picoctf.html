@@ -4,6 +4,20 @@ title: "picoCTF"
 ---
 <h1 align="center">picoCTF</h1>
 
+<h2>2019</h2>
+{% for w in site.picoCTF %}
+	{% if w.year == 2019 %}
+		<a href="#{{w.title}}">{{w.title}}</a> <br>
+	{% endif %}
+{% endfor %}
+
+<h2>2021</h2>
+{% for w in site.picoCTF %}
+	{% if w.year == 2021 %}
+		<a href="#{{w.title}}">{{w.title}}</a> <br>
+	{% endif %}
+{% endfor %}
+
 {% for w in site.picoCTF %}
 	<a href="#{{w.title}}">{{w.title}} ({{w.year}})</a> <br>
 {% endfor %}
