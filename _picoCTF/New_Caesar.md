@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: New Caesar
+year: 2021
+---
 # New Caesar
 Category: Cryptography
 

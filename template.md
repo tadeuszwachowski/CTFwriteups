@@ -1,6 +1,7 @@
 ---
 layout: writeup
 title: [NAME]
+year: [YEAR]
 ---
 # [NAME]
 Category: [CATEGORY]

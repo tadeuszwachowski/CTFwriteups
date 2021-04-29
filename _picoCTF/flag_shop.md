@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: flag_shop
+year: 2019
+---
 # flag_shop
 Category: General Skills
 

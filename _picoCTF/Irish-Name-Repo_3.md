@@ -1,4 +1,9 @@
-# Irish-Name-Repo 1
+---
+layout: writeup
+title: Irish-Name-Repo 3
+year: 2019
+---
+# Irish-Name-Repo 3
 Category: Web Exploitation
 
 ## Description
@@ -7,7 +12,7 @@ Category: Web Exploitation
 
 # Solution
 
-This is the follow-up to [part nr 1](./Irish-Name-Repo_1.md). Once again, we'll focus on the *Admin login*. Thsi time, we only have a `password` input available. Setting `debug=1` in Burp reveals the following response
+This is the follow-up to [part nr 2](./Irish-Name-Repo_2.md). Once again, we'll focus on the *Admin login*. Thsi time, we only have a `password` input available. Setting `debug=1` in Burp reveals the following response
 ```
 password: password
 SQL query: SELECT * FROM admin where password = 'cnffjbeq'

@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: Wireshark twoo twooo two twoo...
+year: 2021
+---
 # Wireshark twoo twooo two twoo...
 Category: Forensics
 

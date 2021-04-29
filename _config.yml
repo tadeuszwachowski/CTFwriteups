@@ -3,12 +3,10 @@ baseurl: /CTFwriteups
 exclude : ['README.md','template.md']
 permalink: pretty
 collections: 
-  helpme:
-    output: true
-    permalink: /helpme/:path/
   CTFlearn:
     output: true
     permalink: /ctflearn/:path/
   picoCTF:
     output: true
     permalink: /picoctf/:path/
+    sort_by: year

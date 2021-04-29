@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: Mod 26
+year: 2021
+---
 # Mod 26
 Category: Cryptography
 

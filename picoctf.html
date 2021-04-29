@@ -1,0 +1,16 @@
+---
+layout: writeup
+title: "picoCTF"
+---
+<h1 align="center">picoCTF</h1>
+
+{% for w in site.picoCTF %}
+	<a href="#{{w.title}}">{{w.title}}</a> <br>
+{% endfor %}
+
+{% for w in site.picoCTF %}
+	<p id="{{w.title}}">{{ w.content | markdownify }}</p>
+	<br>
+	<br>
+	<br>
+{% endfor %}

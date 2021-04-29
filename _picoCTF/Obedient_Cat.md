@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: Obedient Cat
+year: 2021
+---
 # Obedient cat
 Category: General skills
 

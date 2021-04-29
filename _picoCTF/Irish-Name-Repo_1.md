@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: Irish-Name-Repo 1
+year: 2019
+---
 # Irish-Name-Repo 1
 Category: Web Exploitation
 

@@ -1,3 +1,8 @@
+---
+layout: writeup
+title: It is my Birthday
+year: 2021
+---
 # It is my Birthday
 Category: Web exploitation
 
