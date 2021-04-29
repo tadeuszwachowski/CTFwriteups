@@ -21,7 +21,7 @@
 .markdown-body h4 .octicon-link,
 .markdown-body h5 .octicon-link,
 .markdown-body h6 .octicon-link {
-  color: white;
+  color: #adbac7;
   vertical-align: middle;
   visibility: hidden;
 }
@@ -59,7 +59,7 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
-  color: white; 
+  color: #adbac7; 
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   font-size: 16px;
   line-height: 1.5;
@@ -102,6 +102,7 @@
 .markdown-body pre {
   font-family: monospace,monospace;
   font-size: 1em;
+  background-color: #2d333b;
 }
 
 .markdown-body hr {
