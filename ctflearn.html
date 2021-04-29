@@ -4,7 +4,8 @@ title: "CTFlearn"
 ---
 <h1 align="center">CTFlearn</h1>
 
-{% for w in site.CTFlearn %}
+{% assign posts_by_year = collection.CTFlearn | sort: "year" %}
+{% for w in posts_by_year %}
 	<a href="#{{w.title}}">{{w.title}}</a> <br>
 {% endfor %}
 
