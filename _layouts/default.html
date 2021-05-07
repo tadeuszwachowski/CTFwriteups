@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="google-site-verification" content="sW748KsFgEpJDeh9-3VlVRi3Y8wj2dREbofxB8rGsys" />
-	<meta charset="utf-8">
-	<title>/home/twachowski/CTFwriteups</title>
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/markdown.css">
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="sW748KsFgEpJDeh9-3VlVRi3Y8wj2dREbofxB8rGsys" />
+    <title>/home/twachowski/{{site.url}}</title>
 </head>
 <body>
-	<div id="navbar">
+    <div id="navbar">
 		<p class="helpline"> <b>
 			<a href="https://qualorm.github.io">/home</a>
 			<a href="#">  top</a>
@@ -16,10 +17,12 @@
 		</b></p>
 	</div>
 
-	<div id="md-place">
-		{{content}}
-	</div>
-
-	<script src="{{site.baseurl}}/js/main.js"></script>
+    <div id="top"><p><span class="ps">/home/twachowski/{{site.url}} # </span> whoami</p></div>    
+    <div id="content">
+        <div id="md-place">
+            {{content}}
+        </div>
+    </div>
 </body>
+
 </html>
