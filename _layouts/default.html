@@ -11,13 +11,13 @@
 <body>
     <div id="navbar">
 		<p class="helpline"> <b>
-			<a href="{{site.url}}">/home</a>
-			<a href="#">  top</a>
-			<a href="../">  go_up</a>
+			<a href="{{site.url}}"> /home</a>
+			<a href="#"> #top</a>
+			<a href="../">  ../up</a>
 		</b></p>
 	</div>
 
-    <div id="top"><p><span class="ps">/home/twachowski{{site.baseurl}} # </span> ls </p></div>    
+    <div id="top"><p><span class="ps">/home/twachowski{{site.baseurl}}{{page.id}} # </span> ls </p></div>    
     <div id="content">
         <div id="md-place">
             {{content}}
