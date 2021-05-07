@@ -21,6 +21,10 @@
   font-size: x-large;
 }
 
+#top p {
+  font-size: x-large;
+}
+
 #content{
   padding: 20px;
   width: 60%;
@@ -40,7 +44,7 @@ a {
 
 #navbar {
   position: fixed;
-  top: 0;
+  top: 10px;
   right: 0px;
   padding: 10px;
   width: 250px;
@@ -51,6 +55,11 @@ a {
 #navbar.helpline {
   position: relative;
   right: 0;
+}
+
+#navbar a {
+  font-size: 22px;
+  margin: 10px;
 }
 
 #navbar a {
