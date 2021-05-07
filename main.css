@@ -41,7 +41,7 @@ a {
 #navbar {
   position: fixed;
   top: 0;
-  right: -40px;
+  right: 0px;
   padding: 10px;
   width: 250px;
   background-color: #22272e;
