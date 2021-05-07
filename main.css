@@ -20,13 +20,26 @@ body {
   margin: auto;
 }
 
-#top span {
-  font-size: x-large;
+@media screen and (min-width: 651px) {
+  #top span {
+    font-size: x-large;
+  }
+  
+  #top p {
+    font-size: x-large;
+  }
 }
 
-#top p {
-  font-size: x-large;
+@media screen and (max-width: 650px) {
+  #top span {
+    font-size: small;
+  }
+  
+  #top p {
+    font-size: small;
+  }
 }
+
 
 #content{
   padding: 20px;
