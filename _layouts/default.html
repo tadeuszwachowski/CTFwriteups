@@ -16,8 +16,10 @@
 			<a href="#"> #top</a>
 			<a href="../">  ../up</a>
 		</b></p>
-        <a href="javascript:void(0);" class="icon" onclick="burger()"><i class="fa fa-bars"></i></a>
 	</div>
+    <div id="menu">
+        <a href="javascript:void(0);" class="icon" onclick="burger()"><i class="fa fa-bars"></i></a>
+    </div>
 
     <div id="top"><p><span class="ps">/home/twachowski{{ site.baseurl }}{{ page.url }} # </span> ls </p></div>    
     <div id="content">
@@ -28,7 +30,7 @@
 </body>
 
 <script>
-    function myFunction() {
+    function burger() {
       var x = document.getElementById("navbar");
       if (x.style.display === "block") {
         x.style.display = "none";
