@@ -12,7 +12,7 @@ Category: Web Exploitation
 
 # Solution
 
-This is the follow-up to [part nr 1](./Irish-Name-Repo_1.md). Again, we'll focus on the *Admin login*. Setting `debug=1` in Burp reveals the following response
+This is the follow-up to [part nr 1](#Irish-Name-Repo 1). Again, we'll focus on the *Admin login*. Setting `debug=1` in Burp reveals the following response
 ```
 username: user
 password: pass
