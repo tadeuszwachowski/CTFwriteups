@@ -36,7 +36,7 @@ So we are given the source code of the site
 
 We can decrypt the **username** hash (for example on [this](http://hashmash.info) site) to get `admin`. The password is not as simple to crack. However, the code contains a vulnerability - the `==` sign can be exploited with *Magic* - specifically *Magic Hashes*. They can be found [here](https://www.whitehatsec.com/blog/magic-hashes/). Search for `tiger128,4` to get `479763000`. Input it as the password and boom - we get the flag
 
-<img src="{{site.baseurl}}/assets/secure_website_magichash.png" width="500vw">
+![Login page]({{site.baseurl}}/assets/secure_website_magichash.png)
 
 ```
 dctf{It's_magic._I_ain't_gotta_explain_shit.}
