@@ -1,5 +1,5 @@
 markdown: redcarpet
-baseurl: /CTFwriteups
+baseurl: /ctfwriteups
 exclude : ['README.md','template.md']
 permalink: pretty
 collections: 
@@ -10,3 +10,6 @@ collections:
     output: true
     permalink: /picoctf/:path/
     sort_by: year
+  dCTF:
+    output: true
+    permalink: /dctf/:path/
