@@ -1,10 +1,10 @@
 ---
 layout: writeup
-title: [NAME]
-year: [YEAR]
+title: Secure website
+year: 2021
 ---
-# [NAME]
-Category: [CATEGORY]
+# Secure website
+Category: Web
 
 ## Description
 
