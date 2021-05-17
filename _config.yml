@@ -1,5 +1,5 @@
 markdown: redcarpet
-baseurl: /ctfwriteups
+baseurl: /CTFwriteups
 exclude : ['README.md','template.md']
 permalink: pretty
 collections: 
