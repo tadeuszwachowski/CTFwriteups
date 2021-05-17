@@ -1,6 +1,7 @@
 ---
 layout: writeup
 title: Encrypted the flag I have
+year: 2021
 ---
 # Encrypted the flag I have
 Category: Miscellaneous
@@ -8,6 +9,7 @@ Category: Miscellaneous
 ## Description
 
 > Decrypted flag is not in exact format
+
 A file was attached.  
 
 # Solution
