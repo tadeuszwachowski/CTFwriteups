@@ -1,0 +1,16 @@
+---
+layout: writeup
+title: "S.H.E.L.L. CTF"
+
+<h1 align="center">S.H.E.L.L. CTF</h1>
+
+{% for w in site.shellctf %}
+	<a href="#{{w.title}}">{{w.title}}</a> <br>
+{% endfor %}
+
+{% for w in site.shellctf %}
+	<br>
+	<br>
+	<br>
+	<p id="{{w.title}}">{{ w.content | markdownify }}</p>
+{% endfor %}

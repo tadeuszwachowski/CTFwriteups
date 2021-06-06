@@ -13,3 +13,6 @@ collections:
   dCTF:
     output: true
     permalink: /dctf/:path/
+  shellctf:
+    output: true
+    permalink: /shellctf/:path/
