@@ -12,7 +12,7 @@ Category: General skills
 
 A file was attached.  
 
-# Solution
+## Solution
 
 After running `file` on the new download, we get the output:
 ```

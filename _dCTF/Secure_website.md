@@ -10,7 +10,7 @@ Category: Web
 
 > Some students have built their most secure website ever. Can you spot their mistake? [http://dctf1-chall-very-secure-site.westeurope.azurecontainer.io/](http://dctf1-chall-very-secure-site.westeurope.azurecontainer.io/)
 
-# Solution
+## Solution
 
 So we are given the source code of the site 
 ```

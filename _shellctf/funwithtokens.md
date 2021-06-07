@@ -11,7 +11,7 @@ Category: Web
 > I have got secret information that this webapp is vulnerable. Did i fail in verifying passwords ?
 [http://3.142.122.1:9334/](http://3.142.122.1:9334/)
 
-# Solution
+## Solution
 
 The site contains two links - **Admins** and **Login**. For some, simply clicking the links doesn't work - to get to the subsite you have to change the URL by hand. 
 

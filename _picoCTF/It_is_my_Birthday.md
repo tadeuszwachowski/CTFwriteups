@@ -13,7 +13,7 @@ Category: Web exploitation
 [link](http://mercury.picoctf.net:57247/)
 
 
-# Solution
+## Solution
 
 After entering the site we can see two file uploads. Name of the challenge is a reference to the [Birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem). It gives us a hint, that we somehow have to obtain or make two .pdf files, that should produce the same MD5 hash.
 

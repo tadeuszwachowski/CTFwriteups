@@ -12,7 +12,7 @@ Category: Forensics
 
 A file was attached.  
 
-# Solution
+## Solution
 
 After opening `shark.pcapng` with Wireshark we can see several captured packets. 
 After sorting them by Source IP, selecting `192.168.38.104` and using option *Follow TCP Stream* we discover something similar to our flag, but the letters seem shifted.

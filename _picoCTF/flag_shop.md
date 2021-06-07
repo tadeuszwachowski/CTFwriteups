@@ -13,7 +13,7 @@ Connect with `nc jupiter.challenges.picoctf.org 4906`
 
 A file was attached. 
 
-# Solution
+## Solution
 
 After connecting to the server and selecting option nr **2** we can see 
 ```

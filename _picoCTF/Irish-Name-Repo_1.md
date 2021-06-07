@@ -10,7 +10,7 @@ Category: Web Exploitation
 
 > There is a website running at [https://jupiter.challenges.picoctf.org/problem/33850/](https://jupiter.challenges.picoctf.org/problem/33850/) or [http://jupiter.challenges.picoctf.org:33850](http://jupiter.challenges.picoctf.org:33850). Do you think you can log us in? Try to see if you can login!
 
-# Solution
+## Solution
 
 The place where we should look for potential flag is the *Admin login*. Inspecting the page reveals that we are sending three parameters - `username`, `password` and `debug`. We can modify the request with Burp and set `debug=1`. The response looks like this
 ```

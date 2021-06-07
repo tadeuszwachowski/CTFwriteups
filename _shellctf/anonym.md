@@ -12,7 +12,7 @@ Category: Web
 
 [http://3.142.122.1:8887](http://3.142.122.1:8887)
 
-# Solution
+## Solution
 
 So we can take a hint from the description and look for something connected to robots. The first thing that comes to mind is `robots.txt` file. 
 

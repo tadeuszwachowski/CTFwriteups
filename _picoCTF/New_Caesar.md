@@ -12,7 +12,7 @@ Category: Cryptography
 
 A file was attached.  
 
-# Solution
+## Solution
 
 ```
 LOWERCASE_OFFSET = 97

@@ -1,7 +1,7 @@
 ---
 layout: writeup
 title: [NAME]
-year: [YEAR]
+year: 2021
 ---
 # {{ page.title }}
 Category: [CATEGORY]
@@ -12,6 +12,6 @@ Category: [CATEGORY]
 
 A file was attached.  
 
-## Solution
+# Solution
 
 [BLAH BLAH]

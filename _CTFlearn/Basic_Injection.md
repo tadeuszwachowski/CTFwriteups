@@ -10,7 +10,7 @@ Category: Web
 
 > See if you can leak the whole database using what you know about SQL Injections. [link](https://web.ctflearn.com/web4/).  
 
-# Solution
+## Solution
 
 To solve this, simply input `OR 1=1; #` or `' OR 1=1;-- ` (with a space after double dash). This leaks the database and gives us the answer
 ```

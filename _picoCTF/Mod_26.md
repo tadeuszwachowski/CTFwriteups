@@ -12,7 +12,7 @@ Category: Cryptography
 
 `cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}`
 
-# Solution
+## Solution
 Rot13 is a special case of the Caesar cipher. To get the flag, we simply paste the data into [CyberChef](https://gchq.github.io/CyberChef/), 
 [rot13.com](https://rot13.com/) or use `rot13` command on Linux (installed with package **hxtools** on Debian/Ubuntu/Kali or **bsd-games** Arch/Fedora).
 

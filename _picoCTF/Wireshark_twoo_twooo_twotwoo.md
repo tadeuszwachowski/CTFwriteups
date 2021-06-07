@@ -12,7 +12,7 @@ Category: Forensics
 
 A file was attached.  
 
-# Solution
+## Solution
 We start similarly to <a href=Wireshark_doodooo_do_doo.md> part 1 </a>.
 After opening `shark2.pcapng` with Wireshark we can see several captured packets. 
 After searching for `pico` we discover some potential flags like

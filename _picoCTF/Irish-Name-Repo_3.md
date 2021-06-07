@@ -10,7 +10,7 @@ Category: Web Exploitation
 
 > There is a secure website running at [https://jupiter.challenges.picoctf.org/problem/54253/](https://jupiter.challenges.picoctf.org/problem/54253/) or [http://jupiter.challenges.picoctf.org:54253](http://jupiter.challenges.picoctf.org:54253). Try to see if you can login as admin!
 
-# Solution
+## Solution
 
 This is the follow-up to [part nr 2](#Irish-Name-Repo 2). Once again, we'll focus on the *Admin login*. Thsi time, we only have a `password` input available. Setting `debug=1` in Burp reveals the following response
 ```

@@ -12,7 +12,7 @@ Category: Miscellaneous
 
 A file was attached.  
 
-# Solution
+## Solution
 
 We'll use a program called `zsteg`, used to detect hidden data in PNG and BMP. It can be installed with `gem install zsteg` or via GitHub. After running it, the first line in output returns our flag
 ```

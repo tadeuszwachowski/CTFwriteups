@@ -9,7 +9,7 @@ Category: Miscellaneous
 
 > Not much to go off here, but it’s all you need: Wikipedia and `128.125.52.138`
 
-# Solution
+## Solution
 
 As the description says, visit the *English* version of Wikipedia and search for `128.125.52.138`. We see one entry. Inspecting the **diff** link we notice
 ```

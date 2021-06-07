@@ -12,7 +12,7 @@ Category: Miscellaneous
 
 A file was attached.  
 
-# Solution
+## Solution
 
 The downloaded file is a `.png`, the dCTF mascot <br>
 

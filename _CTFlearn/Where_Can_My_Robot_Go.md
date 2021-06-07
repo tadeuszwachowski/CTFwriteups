@@ -11,7 +11,7 @@ Category: Miscellaneous
 > Hint:
 *What does disallow tell a robot?*
 
-# Solution
+## Solution
 
 According to Google, `robots.txt` is a file that blocks search engines from indexing pages and assets on your site. With that knowledge, let's visit [https://ctflearn.com/robots.txt](https://ctflearn.com/robots.txt). We can see that page `70r3hnanldfspufdsoifnlds.html` is hidden from indexing. Visiting [the page](https://ctflearn.com/70r3hnanldfspufdsoifnlds.html) gives us our flag
 ```

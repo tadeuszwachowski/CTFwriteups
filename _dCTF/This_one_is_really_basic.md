@@ -12,7 +12,7 @@ Category: Cryptography
 
 A file was attached.  
 
-# Solution
+## Solution
 
 The string in our file looks like *Base64* encoded. One iteration is not enough, so we can do it manually with a tool like [CyberChef](https://gchq.github.io/CyberChef/) or write a simple script to do it for us
 ```

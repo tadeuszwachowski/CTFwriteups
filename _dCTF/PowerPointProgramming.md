@@ -12,7 +12,7 @@ Category: Miscellaneous
 
 A file was attached.  
 
-# Solution
+## Solution
 
 Downloaded file has a `.ppsx` extenstion, which means it is supposed to be read-only PowerPoint presentation. However, we can force the edit mode by opening `PowerPoint -> Open -> chall.ppsx`. In the **Animations** tab we can observe that some of the letters have little thunderbolts beside them. We can inspect the **Animation Pane**, to find a weird sequence
 
