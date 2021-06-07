@@ -14,7 +14,7 @@ Category: Web
 
 ## Solution
 
-So we can take a hint from the description and look for something connected to robots. The first thing that comes to mind is `robots.txt` file. 
+We can take a hint from the description and look for something connected to robots. The first thing that comes to mind is `robots.txt` file. 
 
 Wikipedia states
 *Robots.txt is a standard used by websites to communicate with web crawlers and other web robots. The standard specifies how to inform the web robot about which areas of the website should not be processed or scanned.*

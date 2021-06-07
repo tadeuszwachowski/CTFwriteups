@@ -15,7 +15,7 @@ Category: Web
 
 The site contains two links - **Admins** and **Login**. For some, simply clicking the links doesn't work - to get to the subsite you have to change the URL by hand. 
 
-In the `/login` page we have a simple login form. Let's start **BurpSuite** to see what happens under the hood. I supplied `user` and `pass` as the credentials. Submitting the form brings us back to main page, like nothing happened. BurpSuite however reveals, that we recieved a token in the response
+In the `/login` page there is a simple login form. Let's start **BurpSuite** to see what happens under the hood. I supplied `user` and `pass` as the credentials. Submitting the form brings us back to main page, like nothing happened. BurpSuite however reveals, that we recieved a token in the response
 
 <img src="{{site.baseurl}}/assets/shell_burp.png" width="500vw">
 
