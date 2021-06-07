@@ -3,7 +3,7 @@ layout: writeup
 title: [NAME]
 year: [YEAR]
 ---
-# [NAME]
+# {{ page.title }}
 Category: [CATEGORY]
 
 ## Description
