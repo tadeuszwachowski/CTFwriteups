@@ -1,0 +1,16 @@
+---
+layout: writeup
+title: "DaVinciCTF"
+---
+<h1 align="center">DaVinciCTF</h1>
+
+{% for w in site.DaVinciCTF %}
+	<a href="#{{w.title}}">{{w.title}}</a> <br>
+{% endfor %}
+
+{% for w in site.DaVinciCTF %}
+	<br>
+	<br>
+	<br>
+	<p id="{{w.title}}">{{ w.content | markdownify }}</p>
+{% endfor %}
