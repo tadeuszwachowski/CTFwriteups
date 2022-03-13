@@ -16,3 +16,6 @@ collections:
   shellctf:
     output: true
     permalink: /shellctf/:path/
+  DaVinciCTF:
+    output: true
+    permalink: /davinci/:path/
